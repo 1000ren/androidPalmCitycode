@@ -36,7 +36,7 @@ import com.busx.utils.DOMManager;
  *
  */
 public class CommonApplication extends Application
-{
+{   //
 	// user login info
 	public UserLoginInfo mUserLoginInfo = null;
 	// app update info
