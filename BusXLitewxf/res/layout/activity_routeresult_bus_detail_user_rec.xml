@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/poidetailbg"
+    tools:ignore="DisableBaselineAlignment" >
+
+    <LinearLayout
+        android:id="@id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title_offman"
+        android:clickable="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_navkind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13.0dip"
+            android:layout_marginTop="13.0dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="18.0dip"
+            android:paddingRight="15.0dip" >
+
+            <ImageView
+                android:id="@id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/icon_nav_bus" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginTop="3.0dip"
+            android:background="#ffc3c9d3"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextViewSumInfo"
+                style="@style/Text.primaryTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:clickable="true"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/TextViewSubInfo"
+                style="@style/Text.secondaryTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13.0dip"
+                android:clickable="true"
+                android:text="" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ImageButtonFavor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9.0dip"
+            android:layout_marginTop="9.0dip"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:src="@drawable/icon_poi_favor"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutFunBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LinearLayout01"
+        android:orientation="horizontal"
+        android:paddingBottom="10.0dip"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:paddingTop="7.0dip" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutApprove"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/btn_poi_detail"
+            android:gravity="center"
+            android:layout_weight="1.0" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_user_comment_appr"
+                android:paddingRight="2.0dip"
+                android:contentDescription="@null"
+                 />
+            <TextView 
+                android:id="@+id/ImageButtonViewMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutOpposition"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/btn_poi_detail"
+            android:gravity="center"
+            android:layout_weight="1.0" >
+			<ImageView
+			    android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_user_comment_oppo"
+                android:contentDescription="@null"
+                android:paddingRight="2.0dip"
+                 />
+            <TextView
+                android:id="@+id/ImageButtonCommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                 />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/LinearLayoutReason"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/btn_poi_detail"
+            android:gravity="center"
+            android:layout_weight="1.0" >
+            <TextView
+                android:id="@+id/ImageButtonReason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListViewRouteBusDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/LinearLayoutFunBtn"
+        android:background="#fff1f1f1"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1.0dip" />
+
+</RelativeLayout>

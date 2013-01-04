@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/poidetail_list_selector_background"
+    android:minHeight="64.0dip"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/TextViewUserName"
+        style="@style/Text.reasonList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"  />
+    <TextView
+        android:id="@+id/TextViewTime"
+        style="@style/Text.reasonList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/TextViewReason"
+        style="@style/Text.reasonList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+
+</LinearLayout>

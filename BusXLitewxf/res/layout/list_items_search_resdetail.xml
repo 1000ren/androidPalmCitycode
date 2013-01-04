@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/poidetail_list_selector_background"
+    android:minHeight="64.0dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="12.0dip" />
+
+    <TextView
+        android:id="@+id/BtnTelDetail"
+        style="@style/Text.primaryListTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="15.0dip"
+        android:singleLine="false" />
+
+</LinearLayout>

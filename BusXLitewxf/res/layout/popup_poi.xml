@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutPopup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="37.0dip"
+    android:layout_y="53.0dip"
+    android:background="@drawable/mul_poi_popup_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/ImageButtonLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/pop_btn_nearsearch"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutPoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3.0dip"
+        android:layout_marginRight="3.0dip"
+        android:orientation="vertical"
+        android:paddingLeft="7.0sp"
+        android:paddingRight="7.0sp" >
+
+        <TextView
+            android:id="@+id/PoiName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="150dip"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/PoiAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="150dip"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#ff464646"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ImageButtonRight"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/pop_btn_route" />
+
+</LinearLayout>

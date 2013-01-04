@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector_default"
+    android:minHeight="64.0dip"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@id/ItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8.0dip"
+        android:src="@drawable/icon_marka"
+        android:contentDescription="@null" />
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/ItemTitle"
+                style="@style/Text.primaryListTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:singleLine="true"
+                android:text="" />
+            
+            <com.busx.activity.view.DirectionCompassView
+                android:id="@+id/ItemDirection"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_below="@id/ItemTitle"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="7.0dip" />
+
+            <TextView
+                android:id="@+id/ItemText"
+                style="@style/Text.secondaryListTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ItemTitle"
+                android:layout_toRightOf="@+id/ItemDirection"
+                android:singleLine="true"
+                android:layout_marginLeft="12.0dip"
+                android:text="" />
+        </RelativeLayout>
+    </LinearLayout>
+	<ImageView
+            android:layout_width="1.0dip"
+            android:layout_height="30.0dip"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginTop="3.0dip"
+            android:layout_gravity="center"
+            android:background="#ffc3c9d3"
+            android:contentDescription="@null" />
+
+    <ImageButton
+        android:id="@+id/BtnDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:padding="10dip"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@drawable/btn_viewdetail" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/poidetail_list_selector_background" >
+
+    <LinearLayout
+        android:id="@+id/page_title_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        android:background="@drawable/bg_title_mapsearch"
+        android:gravity="center" >
+        
+        <TextView
+	        android:id="@+id/transferinfo_detail_title"
+	        style="@android:style/TextAppearance.Inverse"
+	        android:layout_width="fill_parent"
+	        android:layout_height="45dip"
+	        android:gravity="left|center_vertical"
+	        android:paddingLeft="20dip"
+	        android:textColor="@color/black"/>
+
+    </LinearLayout>
+    
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10.0dip" >
+
+            <TextView
+                android:id="@+id/transferinfo_detail_content"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/transferinfo_detail_time"
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10.0dip"
+                android:textColor="@color/black" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

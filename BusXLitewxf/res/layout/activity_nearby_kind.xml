@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_background" >
+
+    <LinearLayout
+        android:id="@+id/page_title_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4.0dip"
+        android:background="@drawable/bg_title_mapsearch"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/Text.primaryTitle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:textColor="#ff000000" />
+
+	<Button
+	    android:id="@+id/spinner_distance"
+	    style="@style/Text.placeChooserText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/place_selector_background"
+	    android:paddingRight="18.0dip"
+	    android:paddingLeft="5.0dip"
+	    android:text="@string/distance_filter" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListView_Nearby"
+        android:layout_below="@id/page_title_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_selector_background"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1.0dip"
+        android:groupIndicator="@null" />
+
+</RelativeLayout>

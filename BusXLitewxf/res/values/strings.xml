@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BusXActivity!</string>
+    <string name="app_name">行人导航</string>
+    <string name="comesoon">即将推出，敬请期待&#8230;</string>
+
+    <string name="progress_text">请稍等&#8230;</string>
+	<string name="progress_title">请稍候</string>
+
+    <string name="search_poi_hint">地点&#8230;</string>
+    <string name="search_busstation_hint">公交、地铁站点&#8230;</string>
+    <string name="search_busline_hint">公交、地铁线路&#8230;</string>
+
+    <string name="choose_set">请选择</string>
+    <string name="start_time">出发时间</string>
+    <string name="end_time">到达时间</string>
+    <string-array  name="distance">
+        <item>500米</item>
+        <item>1000米</item>
+        <item>2000米</item>
+        <item>5000米</item>
+    </string-array>
+	<string name="distance_filter">500米</string>
+	
+	<!-- 错误说明 -->
+	<string name="err_client_net">您的网络连接未打开, 请检查网络连接后再试!</string>
+	<string name="err_null">您好，没有找到您要的结果，请重新输入查询内容.</string>
+	<string name="err_net">网络错误,建议您检查网络连接后再试</string>
+	<string name="err_system">糟糕,现在系统出现了点小问题,请您稍后再试.</string>
+	<string name="validate_text">请至少输入两个有效字符(数字、字母或汉字)!</string>
+	<string name="err_limite">该功能仅允许注册用户使用，请注册后使用！</string>
+	<string name="err_server">服务器连接错误，请检查网络接口！</string>
+	<string name="err_timeout">登陆超时，请退出后，请重新登陆！</string>
+	<string name="validate_word">因当前无法定位，请不要使用</string>
+	<string name="err_comment">没有用户推荐线路！</string>
+	<string name="err_server_busy">服务器繁忙，请稍后再试！</string>
+
+  	<!-- 科大讯飞 -->
+	<string name="app_id">5018efe0</string>
+
+	<!-- 菜单 -->
+	
+    <string name="menu_help">使用帮助</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_back">返回</string>
+    <string name="menu_viewmap">查看地图</string>
+    
+    <string name="menu_search">搜索</string>
+    <string name="menu_route">路线</string>
+    <string name="menu_nearby">周边</string>
+    <string name="menu_subway">地铁查询</string>
+    <string name="menu_clear">清空</string>
+    <string name="menu_more">更多</string>
+    
+    <string name="menu_dti">公交到站</string>
+    <string name="menu_weather">天气</string>
+	<string name="menu_changecity">切换城市</string>
+	<string name="menu_transferinfo">出行信息</string>
+	<string name="menu_traveltips">出行提示</string>
+	<string name="menu_set">设置</string>
+    <string name="menu_layer">图层</string>
+    <string name="menu_favor">收藏夹</string>
+	<string name="menu_appupdate">检查更新</string>
+	<string name="menu_about">关于我们</string>
+	<string name="menu_exit">退出</string>
+	
+    <string name="app_exit">确定退出吗？</string>
+	<string name="ok">确定</string>
+    <string name="cancel">取消</string>
+	<string name="edit">编辑</string>
+	<string name="travelremind">出行提示：</string>
+    <string name="dressremind">穿衣指数：</string>
+    <string name="exerciseremind">运动指数：</string>
+    <string name="carwashremind">洗车指数：</string>
+    <string name="none">无</string>
+    
+    <string name="str_version">当前版本：</string>
+	<string name="str_appupdate">在更新软件时,请按下边的\'检测更新\'按钮, 如果有新版本，会将新版本下载到SD卡中， 如果没有SD卡请准备好SD卡后再试。下载成功后会弹出对话框，按照提示进行安装。\n\n如果安装后提示\'应用程序未安装\'，请点击\'完成\'， 并退出本软件， 到系统主菜单→设置→应用程序→管理应用程序, 找到本软件点击\'卸载\'， 卸载完成后，到系统主菜单中的文件管理器中的sdcard目录下，点击\'BusXLite.apk\'进行安装。</string>
+	<string name="str_about_us">    行人导航产品由北京掌行通信息技术有限公司为出行者提供最优出行路线及步行导航路线的全方位出行服务软件。\n\n    (应用软件)语音听写功能由科大讯飞提供支持。</string> 
+
+	<string name="app_update">软件更新</string>
+	<string name="update_tip">发现新版本，是否更新？(更新最好采用wifi网络)\n</string>
+	<string name="update_enforce_tip">发现重要新版本，为了不影响使用请立即更新！(提示：若不更新，当前版本无法正常使用。更新最好采用wifi网络)\n</string>
+	<string name="update_now">立即下载</string>
+	<string name="update_later">以后再说</string>
+	<string name="update_err">更新服务异常，请稍后再试！</string>
+	<string name="update_noneed">您现在使用的已经是最新版本。</string>
+	
+	<string name="page_up">点击查看上一页记录</string>
+	<string name="page_down">点击查看下一页记录</string>
+	
+	<string name="sdcard_miss">未发现SD卡，请插入SD卡后再试。</string>
+
+	<string name="along_bus">沿途公交:</string>
+	<string name="share_to_friend">分享给好友</string>
+	
+	<string name="commend">推荐</string>
+	<string name="commend_reason">推荐理由(140字以内)</string>
+	<string name="commend_reason_empty">请输入推荐理由内容</string>
+	<string name="commend_success">推荐成功，感谢您的推荐！</string>
+	<string name="commend_long">推荐理由过长，请缩减！</string>
+	<string name="commend_failure">推荐失败。</string>
+	<string name="comment_success">投票成功！</string>
+	<string name="comment_failure">投票失败。</string>
+	<string name="submit">提交</string>
+	<string name="less_transfer">少换乘</string>
+	<string name="less_onfoot">少步行</string>
+	<string name="less_cheap">最经济</string>
+	<string name="less_commend">用户推荐</string>
+	
+	<string name="begin">起点:</string>
+	<string name="end">终点:</string>
+	<string name="point_station_line">地点，站点、线路&#8230;</string>
+	
+	<string name="favorite_point">收藏的地点</string>
+	<string name="favorite_line">收藏的线路</string>
+	<string name="cancel_all">取消全部</string>
+	<string name="select_all">全选</string>
+	<string name="delete">删除</string>
+	
+	<!-- 地铁线路查询 -->
+	<string name="onSelected">点击弹出地铁线路：</string>
+	<string name="search">查  看</string>
+	<string name="arrow">→</string>
+	<string name="subway_line">线路详情</string>
+	<string name="subway_time">首末车时间</string>
+	<string name="t2">T2航站楼</string>
+	<string name="subway_lineinfo">线路信息</string>
+	<string name="subway_aprice">全程票价:</string>
+	<string name="subway_length">线路全长:</string>
+    <string name="subway_hours">全程运行时间:</string>
+    <string name="subway_yuan">元</string>
+    <string name="subway_kilometer">公里</string>
+    <string name="subway_minute">分钟</string>
+    <string name="subway_about">约</string>
+    <string name="subway_interval">发车间隔</string>
+    <string name="subway_introductiontitle">线路介绍</string>
+    <string name="subway_stationlist">站点列表</string>
+    <string name="reverse"> 查看反向 </string>
+    <string name="subway_word1">出发,</string>
+    <string name="subway_word2">开往</string>
+    <string name="subway_runtimetitle">运行时间(分钟)</string>
+    <string name="subway_runtime">运行时间</string>
+    <string name="subway_station">站点详情</string>
+    <string name="subway_orientation">方向</string>
+    <string name="subway_fltime">本站首末车时间</string>
+    <string name="subway_station_introductiontitle">站点介绍</string>
+    <string name="subway_facility">站点设施</string>
+    <string name="subway_inside"><b>站内设施</b></string>
+    <string name="subway_facility_introduction">(厕所位置见内部平面图)</string>
+    <string name="subway_plan">内部平面图</string>
+    
+    <!-- 收藏夹 -->
+    <string name="add_fav">已加入收藏夹</string>
+	<string name="add_fav_err">加入收藏夹失败</string>
+	<string name="delete_fav">已从收藏夹中删除</string>
+	<string name="fav_full">收藏夹已满，请及时清理</string>
+	<!-- 导航 -->
+	<string name="navi_start">开始导航</string>
+	<string name="navi_exit">确定退出导航吗？</string>
+	<string name="navi_ride">乘坐</string>
+	<string name="navi_direction">方向</string>
+	<string name="navi_pass">经过</string>
+	<string name="navi_station">站</string>
+	<string name="navi_arrive">到达</string>
+	<string name="navi_exit_direction">出口</string>
+	<!-- 周边 -->
+	<string name="nearby_me">我的周边</string>
+	<string name="nearby_arround">目的地周边</string>
+	
+	
+</resources>
+

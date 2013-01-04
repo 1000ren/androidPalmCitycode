@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_search_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_plate_global"
+        android:gravity="center" >
+
+        <AutoCompleteTextView
+            android:id="@+id/autotextview_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2.0dip"
+            android:layout_marginLeft="9.0dip"
+            android:layout_marginRight="9.0dip"
+            android:layout_marginTop="6.0dip"
+            android:background="@drawable/btn_map_poi"
+            android:dropDownVerticalOffset="1.0dip"
+            android:gravity="center_vertical"
+            android:hint="@string/search_poi_hint"
+            android:imeOptions="actionDone"
+            android:inputType="text|textAutoComplete"
+            android:singleLine="true"
+            android:textSize="16.0sp" />
+
+        <ImageButton
+            android:id="@+id/imagebtn_voice_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/autotextview_search"
+            android:layout_alignRight="@id/autotextview_search"
+            android:background="#00000000"
+            android:clickable="true"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="8.0dip"
+            android:src="@drawable/btn_voice_search"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:baselineAligned="false"
+            android:id="@+id/btn_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_below="@id/autotextview_search"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="6.0dip"
+            android:layout_marginTop="6.0dip"
+            android:orientation="horizontal"
+            android:paddingBottom="6.0dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.0"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/imagebtn_search_tab_poi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/mode_poi" />
+
+                <Button
+                    android:id="@+id/imagebtn_search_tab_busstation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/mode_busstation" />
+
+                <Button
+                    android:id="@+id/imagebtn_search_tab_busline"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/mode_busline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="3.0" >
+
+                <ImageButton
+                    android:id="@+id/imagebtn_search"
+                    android:layout_width="fill_parent"
+                    android:layout_height="41.0dip"
+                    android:background="@drawable/btn_default_small"
+                    android:src="@drawable/btn_poi_search_normal"
+                    android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

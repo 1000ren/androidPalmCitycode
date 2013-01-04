@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector_default"
+    android:descendantFocusability="blocksDescendants"
+    android:minHeight="64.0dip"
+    android:orientation="horizontal"
+    tools:ignore="UselessParent" >
+
+    <CheckBox
+        android:id="@+id/ItemCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8.0dip" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/ItemTitle"
+                style="@style/Text.primaryListTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12.0dip"
+                android:singleLine="true"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/ItemText"
+                style="@style/Text.secondaryListTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/ItemTitle"
+                android:layout_below="@id/ItemTitle"
+                android:singleLine="true"
+                android:text="" />
+            
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1.0dip"
+        android:layout_height="30.0dip"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginTop="3.0dip"
+        android:background="#ffc3c9d3"
+        android:contentDescription="@null" />
+
+    <ImageButton
+        android:id="@+id/BtnDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="16.0dip"
+        android:src="@drawable/btn_viewdetail" />
+
+</LinearLayout>

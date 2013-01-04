@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nearbykinds>
+    <nearbykind name="交通" key="bus_station" >
+        <item id="2080101">飞机场</item>
+        <item id="2080102">火车站</item>
+        <item id="2080103"> 地铁站</item>
+        <item id="2080105">长途汽车站</item>
+        <item id="2080401,2080402">停车场 </item>
+        <item id="busstop">公交站</item>
+        <item id="2080501">加油站 </item>
+        <item id="3001202">火车代售点</item>
+    </nearbykind>
+
+    <nearbykind name="餐饮" key="dinner" >
+        <item id="2040201">餐厅/酒楼/饭店</item>
+        <item id="2040202">自助餐厅</item>
+        <item id="2040203">快餐店</item>
+    </nearbykind>
+
+    <nearbykind name="娱乐" key="ktv" >
+        <item id="2050101">公园</item>
+        <item id="2050201">自然景观</item>
+        <item id="2060301">影剧院/音乐厅</item>
+        <item id="2060302">游乐场</item>
+        <item id="2060303">休闲广场</item>
+        <item id="2060305">桑拿洗浴/足疗按摩</item>
+        <item id="2060306">游艺厅</item>
+        <item id="2060307">酒吧</item>
+        <item id="2060308">咖啡馆</item>
+        <item id="2060309">茶社</item>
+    </nearbykind>
+    
+    <nearbykind name="银行" key="bank" >
+        <item id="2110201">银行</item>
+        <item id="2110202">ATM</item>
+    </nearbykind>
+
+    <nearbykind name="酒店" key="hotel" >
+        <item id="2040101">五星级宾馆酒店</item>
+        <item id="2040102">四星级宾馆酒店</item>
+        <item id="2040103">三星级宾馆酒店</item>
+        <item id="2040104">一般宾馆酒店</item>
+        <item id="2040105">连锁酒店</item>
+        <item id="2040106">招待所</item>
+        <item id="2040107">度假村</item>
+    </nearbykind>
+
+    <nearbykind name="购物" key="supermarket" >
+        <item id="2070101">百货商场/购物中心</item>
+        <item id="2070201">超市</item>
+        <item id="2070301">便利店</item>
+        <item id="2070401">专营市场/商店</item>
+    </nearbykind>
+
+    <nearbykind name="生活" key="hospital" >
+        <item id="2100101">综合医院</item>
+        <item id="2100102">专科医院</item>
+        <item id="2100104">诊所</item>
+        <item id="2100105">药店</item>
+        <item id="2100601">公共厕所</item>
+    </nearbykind>
+</nearbykinds>

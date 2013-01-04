@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/poidetail_list_selector_background"
+    android:orientation="vertical" >
+
+    <!-- 此处会根据实际情况显示首字母提示 -->
+
+    <TextView
+        android:id="@+id/text_first_char_hint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginTop="12.0dip"
+        android:background="@color/detail_light" />
+
+    <TextView
+        android:id="@+id/province_name"
+        style="@style/Text.primaryListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_alignLeft="@+id/text_first_char_hint"
+        android:layout_below="@+id/text_first_char_hint"
+        android:singleLine="true"/>
+
+</RelativeLayout>

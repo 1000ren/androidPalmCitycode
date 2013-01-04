@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="64.0dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/busdetail_ItemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginTop="5.0dip"
+        android:contentDescription="@null" />
+
+    <RelativeLayout 
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginTop="5.0dip"
+        >
+    <TextView
+        android:id="@+id/busdetail_ItemTitle"
+        style="@style/Text.navPrimaryListTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <TextView 
+        android:layout_below="@id/busdetail_ItemTitle"
+        android:id="@+id/busdetail_ItemInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    </RelativeLayout>
+</LinearLayout>
